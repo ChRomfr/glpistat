@@ -1,0 +1,28 @@
+/*-- Info bulle --*/
+a.infobulle{
+position:relative;
+z-index:24;
+color:#000;
+text-decoration:none
+}
+ 
+a.infobulle:hover{
+z-index:25;
+background-color:#FFF
+}
+ 
+a.infobulle span{
+display: none
+}
+ 
+a.infobulle:hover span{
+display:block;
+position:Static;
+top:2em;  width:15em;
+border:1px solid #000;
+background-color:#FFF;
+color:#000;
+text-align: justify;
+font-weight:none;
+padding:5px;
+}
